@@ -1,0 +1,45 @@
+.container-fluid {
+    background-color: #ebf37a
+}
+.navbar {
+    background-color: #ebf37a;
+}
+#barra-navegacion {
+    background-color: #ebf37a;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #e7490f;
+}
+#texto-titulo {
+    color: rgb(77, 13, 13);
+    text-align: center;
+}
+#texto-encabezado {
+    color: rgb(77, 13, 13);
+    text-align: center;
+}
+.container {
+    background-color: #ebf37a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#cuadro-texto {
+    border: 20px solid rgb(98, 139, 228);
+    background-color: rgb(81, 107, 164);
+    padding: 3px;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+  
+#img {
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: auto;
+} 
+#footer {
+    text-align: right;
+} 

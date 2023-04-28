@@ -1,0 +1,120 @@
+<html>
+    <head>
+        <title>JOJO</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/principal.css">
+        <body style="background-color: rgb(138, 144, 236);"></body>
+        <img src="img/logo.png" alt="Logo" width="150" height="120">
+        <!--Titulo y encabezado-->
+        <h1 id="texto-titulo">PRODUCTORA DE EVENTOS</h1>
+        <H3 id="texto-encabezado">enfocada en organizar conciertos de música urbana </H3>
+        <!-- Navbar -->
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#" id="barra-navegacion">Home | Quien somos? | Cotizar | Servicios | Contacto</a>
+            </div>  
+          </nav>
+        </div>
+        <br>
+        <h3>ARTISTAS:</h3>
+        <!-- Carrusel-->
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/imagen 1.jpg"  class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/imagen 2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/imagen 3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <br>
+          <br>
+          <!--Scrollspy-->
+          <div id="cuadro-texto">
+          <div class="container">
+            <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+              <a class="navbar-brand" href="#">JOJO</a>
+              <ul class="nav nav-pills">
+                <li class="nav-item">
+                  <a class="nav-link" href="#scrollspyHeading1">A que nos dedicamos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading2">Corporativo</a>
+              </li>
+              <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+                <h4 id="scrollspyHeading1">A que nos dedicamos</h4>
+                <p>Somos la agencia musical capaz de diseñar la estrategia global que conseguirá que tu público no imagine un mundo sin tu proyecto.
+                Te ofrecemos todos los servicios relacionados con el negocio musical, desde la idea original hasta diferentes lineas de negocio</p>
+                <h4 id="scrollspyHeading2">Corporativo</h4>
+                <p>Atendemos de forma eficaz y moderna la realización de espectáculos para empresas, lanzamientos de marcas, fiestas de aniversario, etc.
+                Ofrecemos una amplia diversidad de contenido latino y anglo. </p>
+          </div>
+            </nav>
+            <br>
+            <br>
+          <!--Card-->
+          <div class="card">
+            <h5 class="card-header">Vista de como trabajo</h5>
+            <div class="card-body">
+              <h5 class="card-title">video de eventos</h5>
+              <p class="card-text">aqui les dejo video de los eventos que he hecho</p>
+              <a type="button" href="https://www.youtube.com/watch?v=MM7reA7CXGo" class="btn btn-primary">video</a>
+            </div>
+          </div>
+          <br>
+          <br>
+          <!--Form-->
+          <h4>deja tu correo electronico para que podamos comunicarte</h4>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+            <input type="nombre" class="form-control" id="exampleFormControlInput1" placeholder="nombre">
+            <label for="exampleFormControlInput1" class="form-label">Apellido</label>
+            <input type="apellido" class="form-control" id="exampleFormControlInput1" placeholder="apellido">
+            <label for="exampleFormControlInput1" class="form-label">Email ingresa</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+            <button type="button"  class="btn btn-primary">enviar</button>
+            </div>            
+          </div>
+          <br>
+          <br>
+          <!--Offcanvas-->
+          <div class="offcanvas offcanvas-start show" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasLabel">JOJO</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              Hola estas buscando una productora para un evento que tengas en mente estas en el sitio correcto bienvenido a JOJO.
+            </div>
+          </div>
+        </div>
+          <!--list group-->
+          <h3>Donde estamos ubicados</h3>
+          <ul class="list-group">
+            <li class="list-group-item">Zona central</li>
+            <li class="list-group-item">Zona sur</li>
+            <li class="list-group-item">Zona austral </li>
+          </ul>
+          <br>
+          <!--footer-->
+          <footer>
+            <img src="img/logo.png" alt="Logo de mi sitio web" id="img">
+            <a class="nav-link active" href="#" id="footer">Home Features Pricing FAQs About</a>
+            <p>© 2023 JOJO, Inc</p>
+            <br>
+          </footer>
+    </head>
+</html>
